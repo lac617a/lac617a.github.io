@@ -38,7 +38,7 @@
   }
 
   .section-d { padding: 1rem; }
-  .section-d .hero-one { gap: 5rem; }
+  .section-d .hero-one { gap: 5rem; flex-wrap: wrap-reverse }
   .section-d .hero-one .hero-one-scroll { bottom: 7rem; }
   .section-d .hero-one .hero-intro .hero-circle { left: 0; }
   .section-d .sub-title { font-size: 40px; }
@@ -61,7 +61,6 @@
 
 @media screen and (max-width: 320px)  {
   .section-d .sub-title { font-size: 30px; }
-  .section-d .hero-one .hero-one-scroll { bottom: 15rem; }
   .section-d .contact .wrap_form { flex-direction: column; }
   .section-d .contact .wrap_form .sub-title {
     position: relative;

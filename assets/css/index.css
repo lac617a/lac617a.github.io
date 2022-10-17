@@ -121,7 +121,6 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  flex-wrap: wrap-reverse;
   justify-content: space-between;
   margin-top: 5rem;
 
@@ -145,43 +144,24 @@ ul {
   width: 100%;
   height: 100%;
 }
-.section-d .hero-one .hero-intro .hero-circle {
-  position: absolute;
-  top: 2rem;
-  left: 3rem;
-  z-index: 1;
-}
 .section-d .hero-one .hero-intro > h1, .hero-intro > p{
   position: relative;
   font-size: 40px;
   z-index: 2;
 }
-.section-d .hero-one .hero-intro > p{ font-size: inherit; }
+.section-d .hero-one .hero-intro > h1 {
+  line-height: 52px;
+  margin-bottom: 1rem;
+}
+.section-d .hero-one .hero-intro > p { font-size: inherit; }
 
 .section-d .hero-one .hero-intro h1 span {
   background-color: var(--color-main);
   color: var(--color-base);
 }
-.section-d .hero-one .hero-one-scroll{
-  position: absolute;
-  right: 2rem;
-  bottom: 0;
-}
-.section-d .hero-one .hero-one-scroll .hero-text-vertical {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-.section-d .hero-one .hero-one-scroll .hero-text-vertical  p {
-  width: 15px;
-  word-wrap: break-word;
-  margin: 0;
-}
-.section-d .hero-one .hero-one-scroll .hero-text-vertical i {
-  margin-bottom: 3px;
-}
 /* END-HERO-ONE */
+
+
 
 /* HERO-TWO */
 .section-d .hero-two {
